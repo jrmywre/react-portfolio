@@ -2,6 +2,9 @@
     "name": "jeremy-ware-react-portfolio",
     "version": "1.0.0",
     "description": "Person portfolio  app built in react",
+    "engines": {
+        "node": "10.16.3"
+    },
     "scripts": {
         "postinstall": "cp env.example.js env.js",
         "preinstall": "npm set audit false",
